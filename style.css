@@ -1,3 +1,50 @@
+/* Fonts */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('./fonts/Montserrat-VariableFont_wght.woff2')
+			format('woff2 supports variations'),
+		url('./fonts/Montserrat-VariableFont_wght.woff2') format('woff2-variations'),
+		url('./fonts/Montserrat-VariableFont_wght.ttf');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-VariableFont_wght.woff2')
+			format('woff2 supports variations'),
+		url('./fonts/Nunito-VariableFont_wght.woff2') format('woff2-variations'),
+		url('./fonts/Nunito-VariableFont_wght.ttf');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('./fonts/Poppins-SemiBold.woff2') format('woff2 supports variations'),
+		url('./fonts/Poppins-SemiBold.woff2') format('woff2-variations'),
+		url('./fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Work Sans';
+	src: url('./fonts/WorkSans-VariableFont_wght.woff2')
+			format('woff2 supports variations'),
+		url('./fonts/WorkSans-VariableFont_wght.woff2') format('woff2-variations'),
+		url('./fonts/WorkSans-VariableFont_wght.ttf');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('./fonts/Raleway-SemiBold.woff2') format('woff2 supports variations'),
+		url('./fonts/Raleway-SemiBold.woff2') format('woff2-variations'),
+		url('./fonts/Raleway-SemiBold.ttf');
+}
+
 /*Обнуление*/
 * {
 	padding: 0;
@@ -714,7 +761,7 @@ img {
 	border-radius: 2px;
 	cursor: pointer;
 
-	transition: all 0.3 linear;
+	transition: all 0.3s linear;
 }
 .footer__submit:hover,
 .footer__submit:focus {
